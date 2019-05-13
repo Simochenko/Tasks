@@ -19,12 +19,12 @@ import java.util.Scanner;
  * The Catalan numbers satisfy the recurrence relation:
  *  Cn = C0Cn - 1 + C1Cn - 2 + C2Cn - 3 +...+ Cn - 2C1 + Cn - 1C0.
  */
-public class NumberOfBrackets {
+public class NumberOfBraces {
 
     private List<Integer> arrayList;
     private int countBraces;
 
-    public NumberOfBrackets(){
+    public NumberOfBraces(){
         // initialisation fields
         arrayList = new ArrayList<>();
         readNumberFromKeyboard();
