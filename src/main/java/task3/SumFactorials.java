@@ -2,7 +2,7 @@ package task3;
 
 import java.math.BigInteger;
 
-public class SumFactorialsDigitsCalculator {
+public class SumFactorials {
 
     /**
      * Method calculate factorial of input number
